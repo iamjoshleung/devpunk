@@ -15,14 +15,14 @@ export default {
               'https://placehold.it/330x330'
             ],
             medium: [
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900'
+              'https://images.unsplash.com/reserve/iZkDQMqeQlqhoCIywoFv_6005485056_c8622e0824_o.jpg?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1428447207228-b396f310848b?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1429593886847-3cc52983f919?dpr=1&auto=compress,format&fit=crop&w=1199&h=551&q=80&cs=tinysrgb&crop=&bg='
             ], 
             high: [
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400'
+              'https://images.unsplash.com/photo-1480365192324-83232188157e?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1486758206125-94d07f414b1c?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1488441770602-aed21fc49bd5?dpr=1&auto=compress,format&fit=crop&w=1199&h=800&q=80&cs=tinysrgb&crop=&bg='
             ]
           },
           stacks: ['Ruby on Rails', 'VueJS', 'Redux', 'Heroku']
@@ -39,14 +39,14 @@ export default {
               'https://placehold.it/330x330'
             ],
             medium: [
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900'
+              'https://images.unsplash.com/reserve/iZkDQMqeQlqhoCIywoFv_6005485056_c8622e0824_o.jpg?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1428447207228-b396f310848b?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1429593886847-3cc52983f919?dpr=1&auto=compress,format&fit=crop&w=1199&h=551&q=80&cs=tinysrgb&crop=&bg='
             ], 
             high: [
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400'
+              'https://images.unsplash.com/photo-1480365192324-83232188157e?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1486758206125-94d07f414b1c?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1488441770602-aed21fc49bd5?dpr=1&auto=compress,format&fit=crop&w=1199&h=800&q=80&cs=tinysrgb&crop=&bg='
             ]
           },
           stacks: ['Ruby on Rails', 'VueJS', 'Redux', 'Heroku'],
@@ -64,14 +64,14 @@ export default {
               'https://placehold.it/330x330'
             ],
             medium: [
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900'
+              'https://images.unsplash.com/reserve/iZkDQMqeQlqhoCIywoFv_6005485056_c8622e0824_o.jpg?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1428447207228-b396f310848b?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1429593886847-3cc52983f919?dpr=1&auto=compress,format&fit=crop&w=1199&h=551&q=80&cs=tinysrgb&crop=&bg='
             ], 
             high: [
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400'
+              'https://images.unsplash.com/photo-1480365192324-83232188157e?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1486758206125-94d07f414b1c?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1488441770602-aed21fc49bd5?dpr=1&auto=compress,format&fit=crop&w=1199&h=800&q=80&cs=tinysrgb&crop=&bg='
             ]
           },
           stacks: ['Ruby on Rails', 'VueJS', 'Redux', 'Heroku']
@@ -88,14 +88,14 @@ export default {
               'https://placehold.it/330x330'
             ],
             medium: [
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900',
-              'https://placehold.it/900x900'
+              'https://images.unsplash.com/reserve/iZkDQMqeQlqhoCIywoFv_6005485056_c8622e0824_o.jpg?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1428447207228-b396f310848b?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1429593886847-3cc52983f919?dpr=1&auto=compress,format&fit=crop&w=1199&h=551&q=80&cs=tinysrgb&crop=&bg='
             ], 
             high: [
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400',
-              'https://placehold.it/1400x1400'
+              'https://images.unsplash.com/photo-1480365192324-83232188157e?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1486758206125-94d07f414b1c?dpr=1&auto=compress,format&fit=crop&w=1199&h=799&q=80&cs=tinysrgb&crop=&bg=',
+              'https://images.unsplash.com/photo-1488441770602-aed21fc49bd5?dpr=1&auto=compress,format&fit=crop&w=1199&h=800&q=80&cs=tinysrgb&crop=&bg='
             ]
           },
           stacks: ['Ruby on Rails', 'VueJS', 'Redux', 'Heroku']

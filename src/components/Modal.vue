@@ -10,27 +10,19 @@
       </div>
       <div class="modal-body">
         <div class="image-thumbnail--hero">
-          <!-- <img :src="project.thumbnails.small[0]" alt="title" 
-               :srcset="project.thumbnails.small[0] + ' 300w, ' + project.thumbnails.medium[0] + ' 900w, ' +  project.thumbnails.high[0] + ' 1400w'"
-               sizes="(min-width: 768px) 70vw, (min-width: 1200px) 50vw, 300px" 
-               width="100%"
-               :alt="project.title"> -->
-           <img  :src="project.thumbnails.small[0]" 
-                 :srcset="`${project.thumbnails.small[0]} 300w, ${project.thumbnails.medium[0]} 900w, ${project.thumbnails.high[0]} 1400w`"
-                 sizes="(min-width: 768px) 70vw, (min-width: 1200px) 50vw, 300px" 
+           <img  :src="project.thumbnails.small[selectedIndex]" 
+                 :srcset="`${project.thumbnails.small[selectedIndex]} 330w, ${project.thumbnails.medium[selectedIndex]} 900w, ${project.thumbnails.high[selectedIndex]} 1400w`"
+                 sizes="(min-width: 1200px) 50vw, (min-width: 768px) 70vw, 300px" 
                  width="100%"
                  :alt="project.title">
 
-          <!-- <figure>
-            <img :src="selectedThumbnail" width="100%">
-          </figure> -->
         </div>
         <div class="image-thumbnails">
-          <!-- <ul class="list-unstyled">
-            <li v-for="thumbnail in project.thumbnails.small" @click="swapThumbnail(thumbnail)">
+          <ul class="list-unstyled">
+            <li v-for="(thumbnail, index) in project.thumbnails.small" @click="swapThumbnail(index)">
               <img class="lazy" :data-src-lazy="thumbnail" alt="thumbnail" width="100">
             </li>
-          </ul> -->
+          </ul>
         </div>
         <div class="body">
           <div class="description">
@@ -57,12 +49,12 @@
     props: ['modalId', 'project'],
     data() {
       return {
-        selectedThumbnail: this.project.thumbnails.small[0]
+        selectedIndex: 0
       }
     },
     methods: {
-      swapThumbnail(imgUrl) {
-        this.selectedThumbnail = imgUrl;
+      swapThumbnail(imgIndex) {
+        this.selectedIndex = imgIndex
       }
     },
     mounted () {
@@ -101,5 +93,8 @@
     display: inline-block;
     padding-left: 10px;
     color: #9b9b9b;
+  }
+  .image-thumbnails {
+    margin-top: 15px;
   }
 </style>

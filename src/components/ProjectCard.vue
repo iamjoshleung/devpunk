@@ -1,11 +1,10 @@
 <template>
 <div class="col-md-6 col-lg-3 col-xs-12 cardLayout-outer" data-toggle="modal" :data-target="'#' + project.id">
   <div class="card">
-    <!-- <img class="card-img-top" :src="project.thumbnails.small[0]" width="100%" alt="Card image cap"> -->
     <img :src="project.thumbnails.small[0]" 
          class="card-img-top"
-         :srcset="`${project.thumbnails.small[0]} 300w, ${project.thumbnails.medium[0]} 900w, ${project.thumbnails.high[0]} 1400w`"
-         sizes="(min-width: 300px) 90vw, (min-width: 768px) 20vw, (min-width: 991px) 10vw" 
+         :srcset="`${project.thumbnails.high[0]} 1400w, ${project.thumbnails.medium[0]} 900w, ${project.thumbnails.small[0]} 400w`"
+         sizes="(min-width: 991px) 25vw, (min-width: 768px) 50vw, 100vw" 
          width="100%"
          :alt="project.title">
     <div class="card-block">
