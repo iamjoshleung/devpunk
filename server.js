@@ -6,8 +6,7 @@ var app = express()
 app.use(serveStatic(path.join(__dirname, 'dist')))
 
 app.get('/*', function (req, res) {
-  res.send('success')
-  // res.sendFile(path.join(__dirname, 'index.html'))
+  res.sendFile(path.join(__dirname, 'index.html'))
 })
 
 var port = process.env.PORT || 5000
