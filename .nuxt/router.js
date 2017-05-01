@@ -6,6 +6,12 @@ import Router from 'vue-router'
 Vue.use(Router)
 
 
+const _5de26009 = () => import('/Users/shunheileung/Documents/Web-Dev/devpunk/devpunk-front/pages/index.vue' /* webpackChunkName: "pages/index" */)
+
+const _1d3a1f44 = () => import('/Users/shunheileung/Documents/Web-Dev/devpunk/devpunk-front/pages/pet-projects/index.vue' /* webpackChunkName: "pages/pet-projects" */)
+
+const _1e2fa7f6 = () => import('/Users/shunheileung/Documents/Web-Dev/devpunk/devpunk-front/pages/client-projects/index.vue' /* webpackChunkName: "pages/client-projects" */)
+
 
 
 const scrollBehavior = (to, from, savedPosition) => {
@@ -38,6 +44,20 @@ export default new Router({
   linkActiveClass: 'nuxt-link-active',
   scrollBehavior,
   routes: [
-
+		{
+			path: "/",
+			component: _5de26009,
+			name: "index"
+		},
+		{
+			path: "/pet-projects",
+			component: _1d3a1f44,
+			name: "pet-projects"
+		},
+		{
+			path: "/client-projects",
+			component: _1e2fa7f6,
+			name: "client-projects"
+		}
   ]
 })

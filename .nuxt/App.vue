@@ -10,7 +10,7 @@ import NuxtLoading from './components/nuxt-loading.vue'
 
 let layouts = {
 
-  "_default": () => import('/Users/shunheileung/Documents/Web-Dev/devpunk/devpunk-front/node_modules/nuxt/dist/app/layouts/default.vue'  /* webpackChunkName: "layouts/default" */)
+  "_default": () => import('/Users/shunheileung/Documents/Web-Dev/devpunk/devpunk-front/layouts/default.vue'  /* webpackChunkName: "layouts/default" */)
 
 }
 
