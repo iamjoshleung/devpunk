@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "nuxt": "~0.10.7",
-    "vue": "^2.2.6",
+    "vue": "^2.3.0",
     "vue-router": "^2.3.1"
   },
   "devDependencies": {
@@ -73,8 +73,8 @@
     "webpack-merge": "^4.1.0"
   },
   "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
+    "node": ">= 6.9.4",
+    "npm": ">= 3.10.0"
   },
   "browserslist": [
     "> 1%",
