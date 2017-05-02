@@ -10,7 +10,7 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <router-link to="/" class="nav-link" exact>HOME</router-link>
+        <router-link to="/" class="nav-link" exact>ABOUT ME</router-link>
       </li>
       <li class="nav-item">
         <router-link to="/pet-projects" class="nav-link" exact>PET PROJECTS</router-link>
@@ -39,14 +39,18 @@ export default {
 </script>
 
 <style scoped>
-a.nav-link.router-link-active {
+a.nav-link.nuxt-link-active {
   color: black;
+  padding: 0.3rem 1rem;
+  border-bottom: 2px solid #000;
+  display: inline-block;
 }
 .navbar {
   padding: .8rem 1rem;
+  font-family: 'Lato', sans-serif;
 }
 .bg-faded {
   background-color: #fff;
-  border-bottom: 1px solid #e8e8e8;
+  /*border-bottom: 1px solid #e8e8e8;*/
 }
 </style>
