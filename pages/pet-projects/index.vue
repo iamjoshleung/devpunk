@@ -1,8 +1,8 @@
 <template>
   <div class="container" id="projects">
-    <div class="row">
-      <project-card v-for="project in projects" key="project.id" :project="project" />
-    </div>
+    <transition-group name="fade" tag="div" class="row" appear>
+      <project-card v-for="project in projects" :key="project.id" :project="project" />
+    </transition-group>
   </div>
 </template>
 
