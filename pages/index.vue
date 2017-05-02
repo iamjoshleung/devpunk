@@ -26,6 +26,14 @@
       return {
         img_intro: 'https://images.unsplash.com/photo-1485988412941-77a35537dae4?dpr=1&auto=format&fit=crop&w=1500&h=972&q=80&cs=tinysrgb&crop=&bg='
       }
+    },
+    head () {
+      return {
+        title: 'About me',
+        meta: [
+          { hid: 'description', name: 'description', content: 'My custom description' }
+        ]
+      }
     }
   }
 </script>

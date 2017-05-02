@@ -15,6 +15,14 @@ export default {
   name: 'PetProjects',
   components: {
     ProjectCard
+  },
+  head () {
+    return {
+      title: 'Pet projects',
+      meta: [
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
   }
 }
 </script>

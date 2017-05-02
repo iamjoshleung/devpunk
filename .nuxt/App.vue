@@ -15,7 +15,7 @@ let layouts = {
 }
 
 export default {
-  head: {},
+  head: {"titleTemplate":"%s - Devpunk","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Meta description"}]},
   data: () => ({
     layout: null,
     layoutName: ''

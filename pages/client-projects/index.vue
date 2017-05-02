@@ -15,6 +15,14 @@ export default {
   name: 'ClientProjects',
   components: {
     ProjectCard
+  },
+  head () {
+    return {
+      title: 'Client Projects',
+      meta: [
+        { hid: 'description', name: 'description', content: 'My custom description' }
+      ]
+    }
   }
 }
 </script>
