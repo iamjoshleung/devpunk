@@ -8,10 +8,10 @@
 
 <script>
 import ProjectCard from '~components/ProjectCard'
-import ProjectData from '../../mixins/ProjectData'
+import PetProjectData from '../../mixins/PetProjectData'
 
 export default {
-  mixins: [ProjectData],
+  mixins: [PetProjectData],
   name: 'PetProjects',
   components: {
     ProjectCard

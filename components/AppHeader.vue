@@ -53,4 +53,9 @@ a.nav-link.nuxt-link-active {
   background-color: #fff;
   /*border-bottom: 1px solid #e8e8e8;*/
 }
+@media (min-width: 992px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+}
 </style>

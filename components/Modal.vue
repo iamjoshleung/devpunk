@@ -27,7 +27,7 @@
         <div class="body">
           <div class="description">
             <h4 class="h6">DESCRIPTION</h4>
-            <p>{{ project.body }}</p>
+            <p v-html="project.body"></p>
           </div>
           <div class="stacks">
             <h4 class="h6">STACKS</h4>

@@ -9,8 +9,8 @@
          :alt="project.title">
     <div class="card-block">
       <h4 class="card-title"><span class="card-subtitle">{{ upcaseTitle(project.subtitle) }}</span>{{ upcaseTitle(project.title) }}</h4>
-      <p class="card-text">{{ shortDescription(project.body) }}</p>
-      <a href="#" class="btn btn-custom btn-grapefruit" data-toggle="modal" :data-target="'#' + project.id">CHECK OUT</a>
+      <p class="card-text" v-html="shortDescription(project.description)"></p>
+      <button type="button" class="btn btn-custom btn-grapefruit" data-toggle="modal" :data-target="'#' + project.id">CHECK OUT</button>
       <modal :modal-id="project.id" :project="project"></modal>
     </div>
   </div>

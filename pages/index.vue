@@ -3,13 +3,8 @@
     <div class="sectionLayout--insetColumn">
       <h1>Who is this guy?</h1>
     </div>
-    <!-- <div class="sectionLayout--outsetColumn">
-      <figure>
-        <img :src="img_intro" alt="Intro image" class="thumbnail">
-      </figure>
-    </div> -->
     <div class="sectionLayout--insetColumn">
-      <p>Hey, I am an independent full stack web developer from Hong Kong. Currently I live in Vancouver, Canada, working my way to stay here for good. I work primaily with Vue.js, Node.js and Rails at this moment. Constantly enhancing my skills on React, React Native.</p>
+      <p>Hey, I am an independent full stack web developer from Hong Kong. Currently I live in Vancouver, Canada, working my way to stay here for good. I work primaily with Vue.js, Node.js and Rails at this moment, and constantly enhancing my skills on React, React Native.</p>
       <p>I have been working as a full stack developer for a year now. Previously worked at some web design companies to deliver AWESOME websites for clients,  mainly using Wordpress, Opencart and some ecommerce platforms as developing tools.</p>
       <p>To stay creative, I create pet projects from time to time. And hopefully someday I will create a KICKASS app that will "make the world a better place".</p>
       <p>Learning new things is what I do in my spare time. As a web developer I know the industry is constantly changing. New things come and old things go. Sometimes I check out <a href="https://wwww.edx.org">EDX.org</a> to learn topics I hadn't explored, such as data science and virtual reality. Sometimes I would like to refine my programming foundation by joining free courses from <a href="https://ocw.mit.edu/index.htm">MIT OpenCourseWare</a>. Always stay humble and hungry, right? :)</p>
