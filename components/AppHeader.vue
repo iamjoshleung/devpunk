@@ -31,7 +31,7 @@ export default {
   name: 'AppHeader',
   data() {
     return {
-      name: 'Joshua Leung',
+      name: 'DevilPunk',
       img_logo: 'http://placehold.it/30x30'
     }
   }
