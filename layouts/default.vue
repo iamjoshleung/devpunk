@@ -78,4 +78,9 @@ h6 {
   transform: translateX(10px);
   opacity: 0;
 }
+
+.fa-icon {
+  width: auto;
+  height: 1em; /* or any other relative font sizes */
+}
 </style>

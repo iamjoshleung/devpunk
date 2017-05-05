@@ -22,19 +22,19 @@
               <ul class="list-unstyled">
                 <li class="icons-list__item">
                   <a href="mailto:joshuajazleung@gmail.com" rel="nofollow" target="_blank" title="Send me an email">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <icon name="envelope"></icon>
                     Email
                   </a>
                 </li>
                 <li class="icons-list__item">
                   <a href="https://github.com/joshuajazleung" rel="nofollow" target="_blank" title="Look through my Github profile">
-                    <i class="fa fa-github" aria-hidden="true"></i>
+                    <icon name="github"></icon>
                     Github
                   </a>
                 </li>
                 <li class="icons-list__item">
                   <a href="http://stackoverflow.com/users/4821710/joshua-leung" rel="nofollow" target="_blank" title="See my StackOverflow profile">
-                    <i class="fa fa-stack-overflow" aria-hidden="true"></i>
+                    <icon name="stack-overflow"></icon>
                     Stack Overflow
                   </a>
                 </li>

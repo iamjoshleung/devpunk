@@ -80,5 +80,11 @@ let app = {
 
 // Includes & Inject external plugins
 
+require('~plugins/bootstrap.js')
+
+require('~plugins/picturefill.js')
+
+require('~plugins/vue-awesome.js')
+
 
 export { app, router, NuxtError }

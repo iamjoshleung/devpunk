@@ -60,3 +60,5 @@ export default {
 </script>
 
 
+<style src="bootstrap/dist/css/bootstrap.css" lang="css"></style>
+
