@@ -2,7 +2,7 @@ const webpack = require('webpack')
 
 module.exports = {
   build: {
-    vendor: ['jquery', 'bootstrap', 'lodash', 'vue-awesome'],
+    // vendor: ['jquery', 'bootstrap', 'lodash', 'vue-awesome'],
     plugins: [
       // set shortcuts as global for bootstrap
       new webpack.ProvidePlugin({

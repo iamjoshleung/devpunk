@@ -19,7 +19,7 @@
 
 <script>
 import Modal from './Modal'
-import _ from 'lodash'
+// import _ from 'lodash'
 
 export default {
   name: 'ProjectCard',
