@@ -4,8 +4,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
   <router-link to="/" class="navbar-brand">
-    <img :src="img_logo" width="30" height="30" class="d-inline-block align-top" alt="">
-    {{ name }}
+    <!-- {{ name }} -->
   </router-link>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
